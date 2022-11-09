@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define all(a) a.begin(),a.end()
+#define pb push_back
+#define get(a); for(int i=0;i<a.size();++i)cin>>a[i];
+#define give(a); for(int i=0;i<a.size();++i)cout<<a[i]<<" ";
+#define vi vector <int>
+#define SOLVE int t; cin >> t; while(t--){solve();}
+typedef __int128 lll;
+typedef long long ll;
+typedef double ld;
+//#define int ll
+ll inf = 1e9+7, mod = 1e6 + 3;
+const int N = 1e6;
+
+signed main() {
+#ifdef _LOCAL
+    freopen("input.txt", "r", stdin);
+#endif
+    srand(time(nullptr));
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 0;
+}
